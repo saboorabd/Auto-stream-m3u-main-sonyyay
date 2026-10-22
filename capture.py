@@ -238,7 +238,7 @@ def open_session(cfg):
             low = request.url.lower()
             if any(h in low for h in STREAM_HINTS):
                 # Sony Yay mattum filter pannu
-                if "sonyyay" in low:
+                if "sonyyaytam" in low:
                     seen.append(request.url)
                     if len(seen) > SEEN_CAP:
                         del seen[: SEEN_CAP // 2]
@@ -338,7 +338,7 @@ def load_page(cfg):
 def pick(pattern, *groups):
     stale = False
     for group in groups:
-        matches = [u for u in group if pattern.search(u) and "sonyyay" in u.lower()]
+        matches = [u for u in group if pattern.search(u) and "sonyyaytam" in u.lower()]
         fresh = [u for u in matches if not token_expired(u)]
         if len(fresh) < len(matches):
             stale = True

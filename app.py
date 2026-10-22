@@ -34,7 +34,8 @@ REFERER = CFG.get("referer", "https://jjtvxweb.pages.dev/")
 # Clearkey mapping dictionary for DRM protected streams
 CLEARKEY_KEYS = {
     "58d0716748ee52f4a55cf7baa6e072bb": "8fc185a1015f026fec82236bb0e096f4",
-    "c2d762acbea256c0bd67b92d59f69757": "46c59697457af3a687426a4691393774"
+    "c2d762acbea256c0bd67b92d59f69757": "46c59697457af3a687426a4691393774",
+    "271a8e6c5d9d5696a11c474a5c18371c": "d6e2ece0c28b900dc6a868991cdf2517"  # Sony Yay Hindi
 }
 
 LOCK = threading.Lock()

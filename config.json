@@ -1,0 +1,22 @@
+{
+  "page_url": "https://jjtvxweb.pages.dev/pind?id=872",
+  "channel_name": "Sony Yay Tamil",
+  "channel_id": "872",
+  "channel_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/SonyYAYTam.png",
+  "channel_group": "Tamil",
+  "referer": "https://jjtvxweb.pages.dev",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "play_selectors": [
+    "video",
+    "#player-container",
+    ".shaka-play-button",
+    ".shaka-big-play-button",
+    "div[class*='play']",
+    "button[class*='play']"
+  ],
+  "stream_pattern": "SonyYAYTam.*\\.(?:m3u8|mpd)",
+  "capture_timeout_s": 60,
+  "refresh_interval_s": 5,
+  "reload_after_s": 1800,
+  "headless": false
+}
